@@ -1,0 +1,13 @@
+name: Pull Request Workflow
+
+on:
+  pull_request:
+    branches: 
+      - main
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Pull Request
+        run: echo "There was a pull request"
