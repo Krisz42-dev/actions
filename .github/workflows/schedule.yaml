@@ -1,4 +1,4 @@
-name: Scheduled Workflow Local
+name: Scheduled Workflow Local2
 
 on:
   schedule:
