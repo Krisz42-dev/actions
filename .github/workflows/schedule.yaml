@@ -7,6 +7,6 @@ on:
 jobs:
   schedule-job:
     runs-on: ubuntu-latest
-      steps:
-        - name: Print Schedule Trigger
-          run: echo "Scheduled every 5 minutes"
+    steps:
+      - name: Print Schedule Trigger
+        run: echo "Scheduled every 5 minutes"
