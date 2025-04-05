@@ -1,4 +1,4 @@
-name: Schefuled Workflow
+name: Scheduled Workflow
 
 on:
   schedule:
