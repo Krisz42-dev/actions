@@ -5,9 +5,8 @@ on:
     branches: 
       - main
 jobs:
-  job1:
+  pull-request-job:
     runs-on: ubuntu-latest
     steps:
-
-      - name: Pull Request
-        run: echo "There was a pull request"
+      - name: Print Pull Request Trigger
+        run: echo "Pull Request was triggered"
